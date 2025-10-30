@@ -1,0 +1,1 @@
+CUDA_VISIBLE_DEVICES=0,1 vllm serve Qwen/Qwen2.5-Omni-7B --download-dir /path --host host --port port --tensor-parallel-size 1 --data-parallel-size 2 --gpu-memory-utilization 0.75 --max-model-len 16384
