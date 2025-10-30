@@ -1,2 +1,4 @@
 [submodule "lm_eval_tasks"]
 	url = https://github.com/juny116/lm_eval_tasks.git
+	path = lm_eval_tasks
+	branch = main
