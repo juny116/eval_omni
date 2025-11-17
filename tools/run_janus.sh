@@ -1,0 +1,1 @@
+CUDA_VISIBLE_DEVICES=0,1,2,3 python -m uvicorn janus_api:app --host 0.0.0.0 --port 10386
